@@ -9,13 +9,13 @@ const Profile = () => {
           src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
           alt="Error"/>
       </div>
-      <div>
+      <div className={s.ava} >
         ava
       </div>
-      <div>
+      <div className={s.my_posts} >
         My posts
-        <div>
-          new post
+        <div className={s.add_post} >
+          New post
         </div>
         <div className={s.posts} >
           <div className={s.item} >
