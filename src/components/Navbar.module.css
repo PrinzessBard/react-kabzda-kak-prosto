@@ -6,4 +6,11 @@
 
 .item {
   color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.item.active {
+  color: gold;
 }
