@@ -1,16 +1,26 @@
 .nav {
-    grid-area: n;
-    background-color: cornflowerblue;
-    border-radius: 10px;
+  grid-area: n;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  height: 858px;
 }
 
 .item {
   color: white;
-  text-align: center;
+  text-decoration: none;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.item.active {
+.item a {
+  background-color: indigo;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.item a.activeLink {
+  text-decoration: none;
+  margin-left: 30px;
   color: gold;
 }
