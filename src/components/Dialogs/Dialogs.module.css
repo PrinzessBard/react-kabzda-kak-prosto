@@ -4,20 +4,25 @@
 }
 
 .dialogsItems {
-  padding: 10px;
+  margin: 20px;
+  border-right: 1px solid #ffffff;
 }
 
 .dialogsItems .active {
   color: gold;
 }
 
-.dialog {}
+.dialog {
+  color: white;
+  font-size: 22px;
+}
 
 .messages {
-  padding: 10px;
+  margin: 30px;
 }
 
 .message {
-
+  font-size: 22px;
+  color: white;
 }
 
